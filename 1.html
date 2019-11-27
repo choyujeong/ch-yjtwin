@@ -11,14 +11,15 @@ display: grid;
 grid-template-columns: 350px 1fr 1fr 1fr;
 }
 .table{margin-left: 50px; margin-right: 50px; margin-top: 20px;}
-.list{margin-left: 40px;}
+.list{margin-left: 40px; display: block; border-style: groove; border-color: #e0e0e0;}
+.listtitle{margin-left: 95px; width: 250px; display: block; border-style: groove; border-color: #e0e0e0;}
 h4{
   font-size: 18px;
   border:5px solid white;
   background-color: white;
   margin-left: 10px;
   margin-right: 0;
-  width:430px;
+  width:450px;
   height:655px;
   display:block;}
 </style>
@@ -69,16 +70,15 @@ h4{
 </div>
 <div id="article">
   <h4>
-    <p>[Music playlist]</p>
+    <p class="listtitle">[Music playlist]</p>
     <ol class="list">
       <li>예뻤더라</li>
       <li>애 걔</li>
       <li>Fool</li>
       <li>ReallyReally</li>
     </ol>
-    <p>[ReallyReally 뮤직비디오]</p>
-
-
+    <p>[Fool 뮤직비디오]</p>
+    <iframe width="448" height="252" src="https://www.youtube.com/embed/GsebMOWQiYM?start=6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </h4>
 </div>
 </div>
