@@ -9,19 +9,27 @@ h3{
   font-size: 30px;}
 a{
   color: white;
-  text-decoration: none;}
+  text-decoration: none;
+}
 ol{
   border-right:2px solid #e0e0e0;
 display:block;
 margin:0;
 padding:0;
-width:340px;}
+width:350px;
+}
 #grid ol{
 padding-left:20px;
 }
-#grid #article{
+#article{
 padding-left:20px;
 margin:auto;
 text-align: center;
 content: center;
+}
+
+@media(max-width:800px){
+  #grid{display: block;}
+  ol{border-right: none;}
+h1{border-bottom: none;}
 }
